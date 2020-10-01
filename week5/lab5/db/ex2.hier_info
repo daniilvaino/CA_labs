@@ -1,0 +1,18 @@
+|ex2
+din => Mux0.IN3
+din => Mux1.IN3
+din => Mux2.IN3
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[0] => Mux3.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+sel[1] => Mux3.IN4
+doutO <= doutO$latch.DB_MAX_OUTPUT_PORT_TYPE
+dout1 <= dout1$latch.DB_MAX_OUTPUT_PORT_TYPE
+dout2 <= <GND>
+dout3 <= dout3$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

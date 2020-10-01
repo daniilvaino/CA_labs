@@ -1,0 +1,43 @@
+module ex2
+(
+
+input			din,
+input			[1:0] sel,
+output reg 	doutO,
+output reg 	dout1,
+output reg 	dout2,
+output reg 	dout3 
+);
+
+always @(*) 
+	case (sel)
+		2'b00:
+		begin
+			doutO = din;
+			dout1 = 0;
+			dout2 = 0;
+			dout3 = 0;
+		end
+		2'b01:
+		begin
+			doutO = 0;
+			dout1 = din;
+			dout2 = 0;
+			dout3 = 0;
+		end
+		2'b01:
+		begin
+			doutO = 0;
+			dout1 = 0;
+			dout2 = din;
+			dout3 = 0;
+		end
+		2'b11:
+		begin
+			doutO = 0;
+			dout1 = 0;
+			dout2 = 0;
+			dout3 = din;
+		end
+	endcase
+endmodule
