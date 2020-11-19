@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/github/ca_20/week12/exercise1/simulation/modelsim
+vadd
+Z1 !s110 1605804719
+!i10b 1
+!s100 D42Tz>QQ=<JiPOz1fjCQO0
+IQ^56lRTjKSI42AYaiXVQ32
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605793313
+8C:/Users/User/github/ca_20/week12/exercise1/add.v
+FC:/Users/User/github/ca_20/week12/exercise1/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605804719.000000
+!s107 C:/Users/User/github/ca_20/week12/exercise1/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/User/github/ca_20/week12/exercise1
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 bkAWj1zKnUaPGd=a1eU582
+IZHF<PFcgSnHkWn9LY1NQM3
+R2
+R0
+w1605804405
+8C:/Users/User/github/ca_20/week12/exercise1/alu.v
+FC:/Users/User/github/ca_20/week12/exercise1/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/github/ca_20/week12/exercise1/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/alu.v|
+!i113 1
+R5
+R6
+R7
+vhard_block
+R1
+!i10b 1
+!s100 2>=6LoEINe;Pd5C[_YB=00
+IJV4XAQ5DOUfRc2B@jMRBQ0
+R2
+R0
+w1605804712
+8alu.vo
+Falu.vo
+L0 7144
+R3
+r1
+!s85 0
+31
+!s108 1605804718.000000
+!s107 alu.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|alu.vo|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+.
+R7
+vmux
+R1
+!i10b 1
+!s100 4fX3O>GRIj>nWEX`5aV5R3
+IoW@`j@i:z^RJeg`jg1ZZ61
+R2
+R0
+w1605804682
+8C:/Users/User/github/ca_20/week12/exercise1/mux.v
+FC:/Users/User/github/ca_20/week12/exercise1/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/github/ca_20/week12/exercise1/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/mux.v|
+!i113 1
+R5
+R6
+R7
+vsrl
+R1
+!i10b 1
+!s100 2S9FL5QM>h;RfS<G2o;Lo0
+I9iD=8Mbi;A<J_gEVKlK1Q3
+R2
+R0
+w1605793650
+8C:/Users/User/github/ca_20/week12/exercise1/srl.v
+FC:/Users/User/github/ca_20/week12/exercise1/srl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/github/ca_20/week12/exercise1/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/srl.v|
+!i113 1
+R5
+R6
+R7
+vsub
+R1
+!i10b 1
+!s100 hJ_3JdgaQ1kkW:@SX<Ui?3
+IU66>iDe=aCKhV2Z2j0R_90
+R2
+R0
+w1605793706
+8C:/Users/User/github/ca_20/week12/exercise1/sub.v
+FC:/Users/User/github/ca_20/week12/exercise1/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/github/ca_20/week12/exercise1/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/sub.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 VU<Ke=3?51SQ^9?I4MkP=1
+Ie>n0ZQ;j[mkS;<Z>cWfbc3
+R2
+R0
+w1605794278
+8C:/Users/User/github/ca_20/week12/exercise1/testbench.v
+FC:/Users/User/github/ca_20/week12/exercise1/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/github/ca_20/week12/exercise1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/github/ca_20/week12/exercise1|C:/Users/User/github/ca_20/week12/exercise1/testbench.v|
+!i113 1
+R5
+R6
+R7
